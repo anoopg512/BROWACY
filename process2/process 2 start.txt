@@ -1,0 +1,9 @@
+step1: activate the environment: conda activate py37
+
+step2: python detect.py
+
+step3: give input of ( image, video, camera) each of the input will act accordingly.
+
+step4: for image input in step3- give image1.jpg
+
+Now you will see the result.

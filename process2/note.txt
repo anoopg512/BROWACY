@@ -1,0 +1,5 @@
+
+ #iBUG-300W 
+
+ The goal of iBUG-300W is to train a shape predictor capable of localizing each individual facial structure, 
+ including the eyes, eyebrows, nose, mouth, and jawline.

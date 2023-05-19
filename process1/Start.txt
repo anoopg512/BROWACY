@@ -1,0 +1,9 @@
+PROCESS-1
+
+1. open the command window
+
+2. activate the conda environment: conda activate py37
+
+3. python image_pred.py (use this to predict any image file , here the prompt will ask for a file name , put out there name with extention like (image1.jpg, sampl1.png)
+
+4. python PyQt5_v10.py (use this command to open the gui)
