@@ -1,6 +1,6 @@
 # Eyebrow Symmetry App
 
-![Eyebrow Symmetry App]("C:\Users\anoop\Downloads\app_logo.jpg")
+![Eyebrow Symmetry App](app_logo.jpg)
 
 ## Table of Contents
 - [Introduction](#introduction)
