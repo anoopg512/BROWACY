@@ -32,6 +32,7 @@ def draw_shape_lines_all(np_shape, image):
     draw_shape_lines_range(np_shape, image, MOUTH_OUTLINE_POINTS, True)
     draw_shape_lines_range(np_shape, image, MOUTH_INNER_POINTS, True)
 
+from models.pfld import line
 
 def draw_shape_lines_range(np_shape, image, range_points, is_closed=False):
     """Draws the shape using lines to connect the different points"""
@@ -39,6 +40,8 @@ def draw_shape_lines_range(np_shape, image, range_points, is_closed=False):
     np_shape_display = np_shape[range_points]
     points = np.array(np_shape_display, dtype=np.int32)
     cv2.polylines(image, [points], is_closed, (255, 255, 0), thickness=1, lineType=cv2.LINE_8)
+
+from models.pfld import line
 
 def translate_eyebrow(right_point, left_point, image, is_closed = False):
     dist_rpf_lpf_x = np.abs(left_point[0][0] - right_point[-1][0])
@@ -90,6 +93,7 @@ def draw_shape_points_range(np_shape, image, points):
 
 def draw_shape_points(np_shape, image):
     """Draws the shape using points for every landmark"""
+
 
     # Draw a point on every landmark position:
     for (x, y) in np_shape:
